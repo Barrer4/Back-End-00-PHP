@@ -1,0 +1,55 @@
+/*------------------------------------
+- BODY START -
+------------------------------------*/
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+/*------------------------------------
+- BODY END -
+------------------------------------*/
+
+/*------------------------------------
+- HOME START -
+------------------------------------*/
+.table {
+  margin: 0 auto;
+  width: 75%;
+}
+
+/*------------------------------------
+- HOME END -
+------------------------------------*/
+
+/*------------------------------------
+- FOOTER START -
+------------------------------------*/
+footer {
+  max-width: 100%;
+  width: 100vw;
+  contain: content;
+  background-size: cover;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  border-radius: 0 !important;
+}
+
+.footer-container {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  border-color: red 10px solid;
+  border-radius: 0;
+}
+
+/*------------------------------------
+- FOOTER END -
+------------------------------------*/
